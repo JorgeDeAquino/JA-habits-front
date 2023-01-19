@@ -3,12 +3,10 @@ import { Habit } from './components/Habit';
 function App() {
   return (
     <div>
-      <Habit />
-      <Habit />
-      <Habit />
-      <Habit />
-      <Habit />
-      <Habit />
+      <Habit completed={3} />
+      <Habit completed={5} />
+      <Habit completed={5} />
+      <Habit completed={5} />
     </div>
   )
 }
